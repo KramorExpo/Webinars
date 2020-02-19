@@ -10,9 +10,13 @@ import UIKit
  
  1.3 Выведите результат при помощи `print()`
  */
-let firstValue : Float = 3.14
-let secondValue : Float = 42.0
-let thirdValue = Double(firstValue) + Double(secondValue)
+let firstValue: Float = 3.14
+let secondValue: Float = 42.0
+
+
+
+let thirdValue = Double(firstValue + secondValue)
+
 print(thirdValue)
 
 
@@ -33,10 +37,11 @@ print(thirdValue)
  */
 let numberOne = 41
 let numberTwo = 38
+
 let result = numberOne / numberTwo
 let remainder = numberOne % numberTwo
 print("При делении \(numberOne) на \(numberTwo) результат равен \(result)")
-print("Результат деления \(numberOne) на \(numberTwo) равен \(result) \(remainder)/\(numberTwo / )")
+print("Результат деления \(numberOne) на \(numberTwo) равен \(result) \(remainder)/\(numberTwo)")
 
 //max(numberOne, numberTwo)
 
@@ -62,3 +67,6 @@ func greatestDividend (numberOne : Int, numberTwo : Int) -> Int {
  
  3.6 Выведите на консоль сообщение о том в каком квартале вы родились. Для этого используейте операторы сравнения, что бы сравнить номер месяца вашего рождения с одним из четрырех кварталов. Например если номер месяца больше 0 и меньше или равно 3, то это будет первый квартал. Для получения результата используйте конструкцию if
  */
+let dayOfBirth = 2
+let mothOfBirth = 2
+let yearOfBirth = 1995
